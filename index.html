@@ -21,7 +21,7 @@
         <div class="weather-app">
           <form id="search-form" class="mb-3">
             <div class="row">
-              <div class="col-md-9">
+              <div class="col-9">
                 <input
                   type="search"
                   placeholder="Type a city..."
@@ -30,8 +30,8 @@
                   autocomplete="off"
                 />
               </div>
-              <div class="col-2">
-                <input type="submit" value="Search" class="btn btn-primary" />
+              <div class="col-3">
+                <input type="submit" value="Search" class="btn btn-primary w-100" />
               </div>
             </div>
           </form>
@@ -74,21 +74,8 @@
               </ul>
             </div>
           </div>
-          <div class="weather-forecast">
-            <div class="row">
-              <div class="col-2">
-                <div class="weather-forecast-date">Thu</div>
-                <img
-                  src="https://ssl.gstatic.com/onebox/weather/48/cloudy.png"
-                  alt=""
-                  width="36"
-                />
-                <div class="weather-forecast-temperature">
-                  <span class="weather-forecast-temperature-max">18°</span>
-                  <span class="weather-forecast-temperature-min">12°</span>
-                </div>
-              </div>
-            </div>
+          <div class="weather-forecast" id="forecast">
+            
             
             </div>
           </div>
@@ -97,7 +84,7 @@
           <a
             href="https://github.com/ShannonDenton/weather-app-v2/tree/main/Vanilla-weather-app"
             target="_blank"
-            >Open-sourced code</a
+            >Open-source code</a
           >
           by Shannon Denton
         </small>
